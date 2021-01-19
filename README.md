@@ -22,5 +22,7 @@ Pytorch loader for the project http://groups.inf.ed.ac.uk/cup/comment-locator/
 
 
 -Change CODE_EMBEDDINGS_DATA in pytorch_data_reader.py to the directory of "code-big-vectors-negative300.bin"
+
 -Run pytorch_data_reader.py by entering data.txt path as input
+
 -Output demonstrates the dataloader object
