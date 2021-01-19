@@ -3,19 +3,10 @@
 # Reader for comments location data, also produces batches for NN training
 #
 # ------------------------------------------------------------
-from numpy.random import seed
-seed(0)
-from tensorflow import set_random_seed
-set_random_seed(0)
-import random
-random.seed(0)
-
 import numpy as np
-
 from collections import namedtuple
 import gensim
 import collections
-
 from torch.utils.data import DataLoader, Dataset
 
 EMPTY_LINE = "EMPTY"
