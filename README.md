@@ -1,7 +1,7 @@
 # write_comment_paper
 
 Pytorch loader for the project http://groups.inf.ed.ac.uk/cup/comment-locator/ 
-
+------------------------------------------------------------------------------
 Download the embeddings from the above link under "data/code-big-vectors-negative300.bin"
 
 Install the missing packages:
